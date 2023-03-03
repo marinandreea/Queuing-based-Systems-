@@ -1,0 +1,164 @@
+N = 4; Q = 2; 
+𝑡𝑠𝑖𝑚𝑢𝑙𝑎𝑡𝑖𝑜𝑛 𝑀𝐴𝑋 = 60 seconds; 
+[𝑡𝑎𝑟𝑟𝑖𝑣𝑎𝑙 𝑀𝐼𝑁 ,𝑡𝑎𝑟𝑟𝑖𝑣𝑎𝑙 𝑀𝐴𝑋 ] = [2, 30]; 
+[𝑡𝑠𝑒𝑟𝑣𝑖𝑐𝑒 𝑀𝐼𝑁 ,𝑡𝑠𝑒𝑟𝑣𝑖𝑐𝑒 𝑀𝐴𝑋 ]= [2, 4]
+
+The results:
+
+Time: 0
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 1
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 2
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 3
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 4
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 5
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 6
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 7
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 8
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 9
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 10
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 11
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 12
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 13
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 14
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 15
+Waiting: (2,16,3) (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 16
+Waiting: (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: (2,16,3) 
+Queue 2: closed
+
+Time: 17
+Waiting: (3,18,3) (1,27,3) (4,28,2) 
+Queue 1: (2,16,2) 
+Queue 2: closed
+
+Time: 18
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: (2,16,1) 
+Queue 2: (3,18,3) 
+
+Time: 19
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: (3,18,2) 
+
+Time: 20
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: (3,18,1) 
+
+Time: 21
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 22
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 23
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 24
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 25
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 26
+Waiting: (1,27,3) (4,28,2) 
+Queue 1: closed
+Queue 2: closed
+
+Time: 27
+Waiting: (4,28,2) 
+Queue 1: (1,27,3) 
+Queue 2: closed
+
+Time: 28
+Waiting: There are no waiting clients
+Queue 1: (1,27,2) 
+Queue 2: (4,28,2) 
+
+Time: 29
+Waiting: There are no waiting clients
+Queue 1: (1,27,1) 
+Queue 2: (4,28,1) 
+
+Time: 30
+Waiting: There are no waiting clients
+Queue 1: closed
+Queue 2: closed
+
+Average service time: 2.75
+Peak hour: 18 with 2 clients

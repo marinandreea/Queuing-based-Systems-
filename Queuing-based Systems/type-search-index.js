@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"businessLogic","l":"Scheduler"},{"p":"model","l":"Server"},{"p":"businessLogic","l":"SimulationManager"},{"p":"model","l":"Task"},{"p":"view","l":"View"}];updateSearchResults();
